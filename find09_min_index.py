@@ -5,5 +5,7 @@ def find_min_index(data):
         data: list of numbers
     returns: index of minimum number in the list
     """
-    return 0
+    return data.index(min(data))
+print(find_min_index([1, 2, -3, 4, 5]))
+print(find_min_index([12, 2, 5, 2, 7, 9, 1]))
 
